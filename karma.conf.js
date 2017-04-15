@@ -7,7 +7,7 @@ module.exports = function (config) {
         frameworks: ['mocha'],
         files: ['tests/**/*.test.jsx'],
         preprocessors: {
-            'app/tests/**/*.test.jsx': ['webpack', 'sourcemap']
+            'tests/**/*.test.jsx': ['webpack', 'sourcemap']
         },
         reporters: ['mocha'],
         client: {
